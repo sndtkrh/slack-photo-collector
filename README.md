@@ -1,4 +1,4 @@
-# Slack Photo Colloctor
+# Slack Photo Collector
 
 ## Overview
 This Slack bot collect photos in joined channel and upload them to Google Photo album.
