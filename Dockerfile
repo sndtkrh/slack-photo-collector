@@ -12,3 +12,7 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 RUN python3 -m pip install slackbot
+
+COPY . /slack-photo-collector
+WORKDIR /slack-photo-collector
+CMD python3 run.py
